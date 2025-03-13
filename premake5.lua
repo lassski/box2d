@@ -31,8 +31,8 @@ project "Box2D"
 	filter "system:macosx"
 		systemversion "12.0"	
         -- Apple erikoisasetukset (esim. sanitointi)
-        buildoptions { "-fsanitize=address", "-fsanitize=undefined" }
-        linkoptions { "-fsanitize=address", "-fsanitize=undefined" }
+        -- buildoptions { "-fsanitize=address", "-fsanitize=undefined" }
+        -- linkoptions { "-fsanitize=address", "-fsanitize=undefined" }
 
 	filter "system:windows"
 		systemversion "latest"
